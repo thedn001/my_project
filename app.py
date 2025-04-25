@@ -43,7 +43,7 @@ for i in range(num_clusters):
 
 # Plot centroids
 ax.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1],
-           s=300, c='red', marker='X', label='Centroids')
+           s=300, c='red', label='Centroids')
 
 ax.set_title("Customer Segments")
 ax.set_xlabel("Annual Income (scaled)")
